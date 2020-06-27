@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.selva.app.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.entity.Book;
-import com.example.demo.service.BookService;
+import com.selva.app.entity.Book;
+import com.selva.app.service.BookService;
 
 @RestController
 public class BookController {
