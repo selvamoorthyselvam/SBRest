@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.selva.app.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,8 +8,8 @@ import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.entity.Book;
-import com.example.demo.repo.BookRepository;
+import com.selva.app.entity.Book;
+import com.selva.app.repo.BookRepository;
 
 @Service
 public class BookService {

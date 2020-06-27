@@ -1,4 +1,4 @@
-package com.example.demo.repo;
+package com.selva.app.repo;
 
 import java.util.List;
 import java.util.Set;
@@ -8,7 +8,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.example.demo.entity.Book;
+import com.selva.app.entity.Book;
 
 @Repository
 public interface BookRepository extends CrudRepository<Book, Integer>{
